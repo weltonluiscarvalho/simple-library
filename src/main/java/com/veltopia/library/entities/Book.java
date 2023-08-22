@@ -35,4 +35,6 @@ public class Book implements Serializable{
 			)
 	private List<User> users;
 
+	public Book() {
+	}
 }

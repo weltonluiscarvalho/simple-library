@@ -30,4 +30,6 @@ public class User implements Serializable{
 	@ManyToMany(mappedBy = "users")
 	private List<Book> books;
 
+	public User() {
+	}
 }
