@@ -10,4 +10,6 @@ import com.veltopia.library.entities.Book;
 @Repository
 public interface BookRepository extends JpaRepository<Book, UUID>{
 
+    Book findByTitle(String title);
+
 }

@@ -1,0 +1,23 @@
+{
+  "name": "UserValue",
+  "type": "record",
+  "namespace": "com.veltopia.avro",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "birthDate",
+      "type": "string"
+    }
+  ]
+}

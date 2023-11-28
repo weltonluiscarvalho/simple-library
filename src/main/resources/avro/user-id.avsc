@@ -1,0 +1,11 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    }
+  ],
+  "name": "UserId",
+  "namespace": "com.veltopia.avro",
+  "type": "record"
+}
